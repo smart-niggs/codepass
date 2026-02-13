@@ -14,25 +14,19 @@ claude plugin marketplace add smart-niggs/codepass
 claude plugin install codepass
 ```
 
-Or for local development:
-
-```bash
-claude --plugin-dir /path/to/codepass
-```
-
 ## Usage
 
 From any git repository with a GitHub remote:
 
 ```bash
-# Review a PR by number
-/codepass 219
+# Review a PR in your current repo (by number)
+/codepass:pr-review 219
 
-# Review a PR by URL
-/codepass https://github.com/org/repo/pull/219
+# Review a PR in any repo (by URL)
+/codepass:pr-review https://github.com/org/repo/pull/219
 
 # Analyze without posting (dry run)
-/codepass 219 --dry-run
+/codepass:pr-review 219 --dry-run
 ```
 
 ## Features
@@ -68,7 +62,7 @@ After analysis, choose which findings to post:
 
 ## How It Works
 
-1. Parses PR number from your input
+1. Parses PR number or URL from your input
 2. Fetches PR metadata, diff, and review threads (3 parallel API calls)
 3. Reads local CLAUDE.md conventions and changed files
 4. Analyzes across 8 dimensions in a single pass
@@ -79,7 +73,7 @@ After analysis, choose which findings to post:
 ## Configuration
 
 No configuration needed. The plugin:
-- Detects repo owner/name from your current directory (`gh repo view`)
+- Detects repo owner/name from your current directory (`gh repo view`) or from the provided URL
 - Uses your `gh` CLI authentication for GitHub API calls
 - Reads `CLAUDE.md` files dynamically from whatever repo you're in
 - Posts reviews under your own GitHub account
