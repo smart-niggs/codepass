@@ -4,7 +4,7 @@ Thanks for your interest in contributing. This guide covers how to report issues
 
 ## Reporting Bugs
 
-Open a [GitHub issue](https://github.com/smart-niggs/codepass/issues/new?template=bug_report.yml) with:
+Open a [GitHub issue](https://github.com/getcodepass/codepass/issues/new?template=bug_report.yml) with:
 
 - Steps to reproduce (PR number/URL, flags used)
 - Expected vs actual behavior
@@ -14,12 +14,12 @@ Open a [GitHub issue](https://github.com/smart-niggs/codepass/issues/new?templat
 
 ## Suggesting Features
 
-Open a [feature request](https://github.com/smart-niggs/codepass/issues/new?template=feature_request.yml). Include the use case and how you'd expect it to work.
+Open a [feature request](https://github.com/getcodepass/codepass/issues/new?template=feature_request.yml). Include the use case and how you'd expect it to work.
 
 ## Development Setup
 
 ```bash
-git clone https://github.com/smart-niggs/codepass
+git clone https://github.com/getcodepass/codepass
 cd codepass
 ```
 

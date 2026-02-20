@@ -27,5 +27,5 @@ You can expect an initial response within 72 hours.
 
 - Keep `gh` CLI updated (`gh upgrade`)
 - Use fine-grained personal access tokens instead of classic tokens
-- Review plugin source code before installing: `gh repo view smart-niggs/codepass --web`
+- Review plugin source code before installing: `gh repo view getcodepass/codepass --web`
 - Use `--dry-run` to preview review output before posting to GitHub

@@ -342,7 +342,7 @@ After the user responds, construct the review payload.
 <selected findings only>
 
 ---
-*Reviewed with [codepass](https://github.com/smart-niggs/codepass)*
+*Reviewed with [codepass](https://github.com/getcodepass/codepass)*
 ```
 
 **Build inline comments** for each selected finding.

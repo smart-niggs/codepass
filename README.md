@@ -10,7 +10,7 @@ Single-pass PR review plugin for Claude Code. Posts inline GitHub comments, chec
 ## Installation
 
 ```bash
-claude plugin marketplace add smart-niggs/codepass
+claude plugin marketplace add getcodepass/codepass
 claude plugin install codepass
 ```
 
